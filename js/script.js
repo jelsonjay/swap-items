@@ -12,7 +12,6 @@ allCar.map(item => {
 	return item.addEventListener('click', e => {
 		const element = e.target;
 		element.classList.toggle('selected');
-
 		// console.log(e.target);
 	});
 });
