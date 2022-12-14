@@ -1,3 +1,5 @@
+/*=====Google Fonts=====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,9 +8,12 @@
   border: none;
 }
 
+/*======VARIABLES=======*/
+/*======DEFAULTS=======*/
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background: linear-gradient(90deg, #5a53df 0%, #ca5ce0 0%, #27c475 100%);
+  background: linear-gradient(90deg, #5a53df 0%, #9d20b6 0%, #278dc4 100%);
+  transition: all 0.3s linear;
 }
 
 header > h2 {

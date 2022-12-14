@@ -1,3 +1,6 @@
+/*=====Google Fonts=====*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -5,28 +8,29 @@
 	outline: none;
 	border: none;
 }
-
+/*======VARIABLES=======*/
 $primary: hsl(39, 77%, 83%);
 $secondary: hsl(202, 68%, 39%);
 $bg: linear-gradient(
 	90deg,
 	hsl(243, 69%, 60%) 0%,
-	hsl(290, 68%, 62%) 0%,
-	hsl(150, 67%, 46%) 100%
+	hsl(290, 70%, 42%) 0%,
+	hsl(201, 67%, 46%) 100%
 );
 $white: hsl(0, 0%, 100%);
 $btn: hsl(120, 39%, 76%);
+$transition: all 0.3s linear;
 
+/*======DEFAULTS=======*/
 body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	background: $bg;
+	transition: $transition;
 }
-
 header > h2 {
 	text-align: center;
 	margin-top: 2rem;
 }
-
 section {
 	display: flex;
 	justify-content: center;
@@ -50,7 +54,6 @@ section {
 	cursor: pointer;
 	border-radius: 0.5rem;
 }
-
 .box {
 	display: flex;
 	flex-direction: column;
@@ -64,7 +67,6 @@ section {
 	align-items: center;
 	margin: 1rem;
 }
-
 section button {
 	width: 9.375rem;
 	height: 2.5rem;
@@ -74,7 +76,6 @@ section button {
 	border-radius: 0.5rem;
 	background-color: $btn;
 }
-
 .selected {
 	background-color: hsl(133, 63%, 40%);
 	color: rgb(255, 255, 255);
